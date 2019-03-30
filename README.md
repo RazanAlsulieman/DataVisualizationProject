@@ -6,7 +6,6 @@ CA682 Data Visualisation Assignment
 This is a final project of Data Visualization and Management course. The analysis was developed with Python and is about discovering and visualizing the relationship between suicides and unemployment.
 
 Two datasets were obtained from Kaggle.com :
-        
         1. Suicide Rates:
                 https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
         .
