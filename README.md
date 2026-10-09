@@ -1,29 +1,41 @@
+# Youth Suicide and Unemployment: Exploratory Visualization
 
+A 2019 **CA682 Data Visualization and Management** academic project by **Razan Alsulieman**, exploring country-level youth suicide and unemployment data for ages 15–24 during 2010–2014.
 
-CA682 Data Visualisation Assignment
+## Analysis and visualizations
 
+The Python notebook uses **pandas** to inspect, filter, reshape, and join country-year data, then **Plotly** to create interactive grouped bars, time-series displays, country comparisons, and choropleth maps.
 
-This is a final project of Data Visualization and Management course. The analysis was developed with Python and is about discovering and visualizing the relationship between suicides and unemployment.
+The project demonstrates an exploratory workflow from data preparation to visual communication. Its figures describe selected records; summed rates in the original plots are not population-weighted global measures or causal estimates.
 
-Two datasets were obtained from Kaggle.com :
-        1. Suicide Rates:
-                https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
-        .
-        2. Unemployment Rates:
-                https://www.kaggle.com/sovannt/world-bank-youth-unemployment
-           
-The suicide and unemployment datasets were cleaned and transformed to be merged on countries for the visualization.
+## Repository contents
 
+| File | Purpose |
+| --- | --- |
+| [DataVisualAssign.ipynb](DataVisualAssign.ipynb) | Analysis notebook and interactive visualizations |
+| `SuicideRate.csv` | Suicide-data snapshot: 27,820 records |
+| `UnempRate.csv` | Youth-unemployment snapshot: 219 records |
+| `DVM_Assignment_Report.pdf` | Original academic report |
 
+## Data sources
 
-***** Running the project ******
+- [Suicide Rates Overview 1985 to 2016](https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016), uploaded by `russellyates88`.
+- [World Bank Youth Unemployment Rates](https://www.kaggle.com/datasets/sovannt/world-bank-youth-unemployment), uploaded by `sovannt`.
 
-1. Using Anaconda Navigator 1.9.6 - Python 3.
+The notebook selects the study period and age group, reshapes unemployment years into rows, joins on country and year, and retains complete joined observations.
 
-2. Import DataVisualAssign.ipynb project to Jupyter Notebook.
+## Open the project
 
-3. Downlaod the datasets from Kaggle or from this link "https://github.com/RazanAlsulieman/DataVisualizationProject".
+With Jupyter installed:
 
-4. Have Fun.
+```bash
+git clone https://github.com/RazanAlsulieman/DataVisualizationProject.git
+cd DataVisualizationProject
+jupyter notebook DataVisualAssign.ipynb
+```
 
+Keep both CSV files beside the notebook. **Dependencies:** pandas, Plotly, and Jupyter. The original setup records Python 3.7.1 and Anaconda Navigator 1.9.6; individual package versions are not pinned, so execution requires a compatible environment.
 
+## Attribution and reuse
+
+The notebook and report document Razan Alsulieman's academic analysis. Datasets belong to their respective providers. No repository license file or exact dataset-version/redistribution-permission record is included; code, data, and report reuse must be considered separately.
