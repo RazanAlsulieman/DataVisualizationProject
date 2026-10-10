@@ -1,6 +1,6 @@
 # Youth Suicide and Unemployment: Exploratory Visualization
 
-A 2019 **CA682 Data Visualization and Management** academic project by **Razan Alsulieman**, exploring country-level youth suicide and unemployment data for ages 15–24 during 2010–2014.
+A 2019 **CA682 Data Visualization and Management** academic project, exploring country-level youth suicide and unemployment data for ages 15–24 during 2010–2014.
 
 ## Analysis and visualizations
 
@@ -36,6 +36,4 @@ jupyter notebook DataVisualAssign.ipynb
 
 Keep both CSV files beside the notebook. **Dependencies:** pandas, Plotly, and Jupyter. The original setup records Python 3.7.1 and Anaconda Navigator 1.9.6; individual package versions are not pinned, so execution requires a compatible environment.
 
-## Attribution and reuse
 
-The notebook and report document Razan Alsulieman's academic analysis. Datasets belong to their respective providers. No repository license file or exact dataset-version/redistribution-permission record is included; code, data, and report reuse must be considered separately.
